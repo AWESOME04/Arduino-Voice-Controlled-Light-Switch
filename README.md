@@ -34,6 +34,8 @@ Procedure
 SCHEMATICS
 
 FLOW CHART
+
+
 ![image](https://user-images.githubusercontent.com/102630199/219323334-f1129914-0bff-47b0-9883-453624f55ad6.png)
 
 CODE USED FOR ARDUINO (CHANGES MADE)
