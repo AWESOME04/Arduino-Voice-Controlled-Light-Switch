@@ -1,4 +1,4 @@
-# Arduino-Voice-Control-Light-Switch
+# Arduino-Voice-Controlled-Light-Switch
 This project involves deploying a program to the micro-controller. The LED light will be switched on when we say “Yes”, and switched off when we say “No”.
 
 In fact, the word detection model is pretrained. My main work is to deploy the application to our microcontroller Arduino Nano 33 BLE Sense. This microcontroller has a microphone which can be used for audio signals input, and a built-in LED which can be used for output.
@@ -15,10 +15,13 @@ Goals and objectives
 
 
 Hardware and Software Required
+
 •	An Arduino Nano 33 BLE Sense board
 •	A Micro USB cable to connect the Arduino board to your desktop machine.
 •	To program the board, I used the  Arduino IDE. 
+
 Procedure
+
 •	I used the Arduino IDE to connect the microphone and deploy the application to the microcontroller. First, I installed the library named Arduino_TensorFlowLite-2.4.0-ALPHA-precompiled and chose the example named micro_speech. 
 
 •	Afterwards, I only needed to change the code in arduino_command_responder.cpp to implement the desired functions.
@@ -29,6 +32,7 @@ Procedure
 
 
 SCHEMATICS
+
 FLOW CHART
 ![image](https://user-images.githubusercontent.com/102630199/219323334-f1129914-0bff-47b0-9883-453624f55ad6.png)
 
