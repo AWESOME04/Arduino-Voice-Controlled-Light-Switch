@@ -1,4 +1,7 @@
 # Arduino-Voice-Controlled-Light-Switch
+
+![voice](https://user-images.githubusercontent.com/102630199/228667881-ada43a93-2506-4cf5-9266-859e415d4cc6.jpg)
+
 This project involves deploying a program to the micro-controller. The LED light will be switched on when we say “Yes”, and switched off when we say “No”.
 
 In fact, the word detection model is pretrained. My main work is to deploy the application to our microcontroller Arduino Nano 33 BLE Sense. This microcontroller has a microphone which can be used for audio signals input, and a built-in LED which can be used for output.
